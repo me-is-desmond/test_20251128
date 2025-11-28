@@ -1,11 +1,15 @@
 ### update by me, 20251126, test 2
 name: CI/CD Pipeline
 
+
+
 on:
   push:
     branches:
-      - main
+      - master
+  workflow_dispatch:
 
+  
 jobs:
   build:
     runs-on: ubuntu-latest
